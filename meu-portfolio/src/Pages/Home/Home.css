@@ -1,0 +1,21 @@
+.home-container {
+  width: 69.4rem;
+  border: 1px solid green;
+}
+
+.home-container section {
+  height: 37.5rem;
+
+  border: 1px solid blue;
+  margin-bottom: 9.3rem;
+}
+
+.home-container section img {
+  width: 69.4rem;
+  height: 37.5rem;
+}
+
+.home-container article {
+  border: 1px solid purple;
+  height: 37.5rem;
+}
