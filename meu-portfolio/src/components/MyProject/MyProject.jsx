@@ -19,7 +19,7 @@ export default function MyProject({
             <img src={element} alt="" />
           ))}
         </div>
-        <PrimaryButton textBtn="VER PROJETO" styleBtn="btn-gray" />
+        <PrimaryButton textBtn="MAIS SOBRE" styleBtn="btn-gray" />
       </div>
     </div>
   );

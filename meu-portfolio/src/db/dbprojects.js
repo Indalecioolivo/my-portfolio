@@ -1,4 +1,6 @@
 import InventoryProjectImg from "../assets/inventoryControl.png";
+import BillingManagement from "../assets/billingManagement.png";
+import CubosPlayer from "../assets/cubosPlayer.png";
 
 const jsImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg";
@@ -16,6 +18,18 @@ const jsonImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg";
 const prisma =
   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg";
+const materialUiImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg";
+const postgresImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg";
+const knexImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/knexjs/knexjs-original.svg";
+const herokuImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/heroku/heroku-original.svg";
+const netlifyImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original.svg";
+const vercelImg =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg";
 
 const myProjectsInfos = [
   {
@@ -33,7 +47,38 @@ const myProjectsInfos = [
       expressImg,
       jsonImg,
       prisma,
+      postgresImg,
+      herokuImg,
+      netlifyImg,
     ],
+  },
+  {
+    id: 2,
+    mainImg: BillingManagement,
+    projectName: "Billing Management",
+    aboutProject:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem possimus minus sunt quae ipsum voluptas porro a id animi. Est eveniet repellendus, tempora numquam quae exercitationem ratione autem dignissimos eaque aliquam reprehenderit iure sed veniam alias officia. Aspernatur officia labore ipsa nobis maxime ex deleniti sunt praesentium, beatae quo nisi!",
+    technologiesUsed: [
+      jsImg,
+      reactImg,
+      nodeImg,
+      nodemonImg,
+      axiosImg,
+      materialUiImg,
+      expressImg,
+      jsonImg,
+      postgresImg,
+      knexImg,
+      vercelImg,
+    ],
+  },
+  {
+    id: 3,
+    mainImg: CubosPlayer,
+    projectName: "Cubos Player",
+    aboutProject:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem possimus minus sunt quae ipsum voluptas porro a id animi. Est eveniet repellendus, tempora numquam quae exercitationem ratione autem dignissimos eaque aliquam reprehenderit iure sed veniam alias officia. Aspernatur officia labore ipsa nobis maxime ex deleniti sunt praesentium, beatae quo nisi!",
+    technologiesUsed: [jsImg, reactImg],
   },
 ];
 
