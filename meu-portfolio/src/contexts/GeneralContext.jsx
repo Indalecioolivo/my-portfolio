@@ -6,6 +6,8 @@ export function GeneralContextProvider({ children }) {
   const [project, setProject] = useState({
     id: false,
     mainImg: false,
+    photo1: false,
+    photo2: false,
     projectName: "",
     aboutProject: "",
     technologiesUsed: [],

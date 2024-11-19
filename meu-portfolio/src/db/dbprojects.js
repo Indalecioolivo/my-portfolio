@@ -1,6 +1,10 @@
 import InventoryProjectImg from "../assets/inventoryControl.png";
 import BillingManagement from "../assets/billingManagement.png";
 import CubosPlayer from "../assets/cubosPlayer.png";
+import BillingArt from "../assets/projectbillingart.png";
+import BillingPhoto1 from "../assets/projectbillingphoto1.png";
+import BillingPhoto2 from "../assets/projectbillingphoto2.png";
+import BillingPhoto3 from "../assets/projectbillingphoto3.png";
 
 const jsImg =
   "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg";
@@ -35,6 +39,9 @@ const myProjectsInfos = [
   {
     id: 1,
     mainImg: InventoryProjectImg,
+    photo1: BillingPhoto1,
+    photo2: BillingPhoto2,
+    photo3: BillingPhoto3,
     projectName: "LM Inventory Control",
     aboutProject:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem possimus minus sunt quae ipsum voluptas porro a id animi. Est eveniet repellendus, tempora numquam quae exercitationem ratione autem dignissimos eaque aliquam reprehenderit iure sed veniam alias officia. Aspernatur officia labore ipsa nobis maxime ex deleniti sunt praesentium, beatae quo nisi!",
@@ -55,6 +62,10 @@ const myProjectsInfos = [
   {
     id: 2,
     mainImg: BillingManagement,
+    art: BillingArt,
+    photo1: BillingPhoto1,
+    photo2: BillingPhoto2,
+    photo3: BillingPhoto3,
     projectName: "Billing Management",
     aboutProject:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem possimus minus sunt quae ipsum voluptas porro a id animi. Est eveniet repellendus, tempora numquam quae exercitationem ratione autem dignissimos eaque aliquam reprehenderit iure sed veniam alias officia. Aspernatur officia labore ipsa nobis maxime ex deleniti sunt praesentium, beatae quo nisi!",
@@ -75,6 +86,9 @@ const myProjectsInfos = [
   {
     id: 3,
     mainImg: CubosPlayer,
+    photo1: BillingPhoto1,
+    photo2: BillingPhoto2,
+    photo3: BillingPhoto3,
     projectName: "Cubos Player",
     aboutProject:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem possimus minus sunt quae ipsum voluptas porro a id animi. Est eveniet repellendus, tempora numquam quae exercitationem ratione autem dignissimos eaque aliquam reprehenderit iure sed veniam alias officia. Aspernatur officia labore ipsa nobis maxime ex deleniti sunt praesentium, beatae quo nisi!",

@@ -10,10 +10,24 @@ export default function MyProject({
   aboutProject,
   technologiesUsed,
   id,
+  photo1,
+  photo2,
+  photo3,
+  art,
 }) {
   const { setProject } = useContext(GeneralContext);
   function handleClick(e) {
-    setProject({ mainImg, projectName, aboutProject, technologiesUsed, id });
+    setProject({
+      mainImg,
+      projectName,
+      aboutProject,
+      technologiesUsed,
+      id,
+      photo1,
+      photo2,
+      photo3,
+      art,
+    });
   }
   return (
     <div className="myproject-container">

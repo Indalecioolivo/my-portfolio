@@ -12,6 +12,10 @@ export default function Portfolio() {
           aboutProject={project.aboutProject}
           technologiesUsed={project.technologiesUsed}
           key={project.id}
+          art={project.art}
+          photo1={project.photo1}
+          photo2={project.photo2}
+          photo3={project.photo3}
           id={project.id}
         />
       ))}
