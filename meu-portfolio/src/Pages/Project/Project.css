@@ -5,7 +5,7 @@
 }
 .project-container .content-container {
   min-height: 74.5rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
 }
 .project-container img {
@@ -39,7 +39,7 @@
 }
 .project-container .right-content {
   width: 40rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   line-height: var(--textLine);
 }
 
