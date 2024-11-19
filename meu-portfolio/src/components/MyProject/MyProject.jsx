@@ -1,12 +1,20 @@
 import "./MyProject.css";
 import PrimaryButton from "../PrimaryButton/PrimaryButton";
+import { GeneralContext } from "../../contexts/GeneralContext";
+import { useContext } from "react";
+import { Navigate, Link } from "react-router-dom";
 
 export default function MyProject({
   mainImg,
   projectName,
   aboutProject,
   technologiesUsed,
+  id,
 }) {
+  const { setProject } = useContext(GeneralContext);
+  function handleClick(e) {
+    setProject({ mainImg, projectName, aboutProject, technologiesUsed, id });
+  }
   return (
     <div className="myproject-container">
       <img src={mainImg} alt="" />
@@ -19,7 +27,15 @@ export default function MyProject({
             <img src={element} alt="" />
           ))}
         </div>
-        <PrimaryButton textBtn="MAIS SOBRE" styleBtn="btn-gray" />
+        <Link to={`/portfolio/${id}`}>
+          <PrimaryButton
+            textBtn="MAIS SOBRE"
+            styleBtn="btn-gray"
+            handleFunction={(e) => {
+              handleClick(e);
+            }}
+          />
+        </Link>
       </div>
     </div>
   );

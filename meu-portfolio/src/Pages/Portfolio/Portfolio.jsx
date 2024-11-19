@@ -12,6 +12,7 @@ export default function Portfolio() {
           aboutProject={project.aboutProject}
           technologiesUsed={project.technologiesUsed}
           key={project.id}
+          id={project.id}
         />
       ))}
     </section>
