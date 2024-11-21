@@ -38,7 +38,8 @@ export default function Project() {
           </p>
           <h3>Previews</h3>
           <img src={project.photo1} alt="" />
-          <img src={project.photo2} alt="" />
+          {project.photo2 ? <img src={project.photo2} alt="" /> : ""}
+          {project.photo3 ? <img src={project.photo3} alt="" /> : ""}
         </div>
       </div>
     </article>
