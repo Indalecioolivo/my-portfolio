@@ -17,13 +17,16 @@ export default function Contact() {
       </article>
       <article>
         <h3>Contato</h3>
-        <form action="">
+        <form
+          action="https://formsubmit.co/indalecioolivo@gmail.com"
+          method="POST"
+        >
           <label htmlFor="name">Nome</label>
-          <input type="text" id="name" />
+          <input type="text" id="name" name="name" required />
           <label htmlFor="email">E-mail</label>
-          <input type="text" id="email" />
+          <input type="text" id="email" name="email" required />
           <label htmlFor="textcontact">Mensagem</label>
-          <textarea name="" id="textcontact"></textarea>
+          <textarea id="textcontact" name="message" required></textarea>
           <PrimaryButton styleBtn="btn-blue" textBtn="ENVIAR" />
         </form>
       </article>

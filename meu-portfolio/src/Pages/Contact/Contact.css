@@ -16,14 +16,18 @@
 .contact-container article h2 {
   font-size: var(--h2Size);
 
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: 0 0 0 0;
+}
+
+.contact-container article h3 {
+  font-size: var(--h3Size);
 }
 
 .contact-container article p {
   width: 34.7rem;
 
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
   margin: 0 0 0 0;
 
