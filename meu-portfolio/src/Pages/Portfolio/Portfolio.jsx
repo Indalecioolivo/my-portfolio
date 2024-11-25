@@ -39,6 +39,7 @@ export default function Portfolio() {
           mainImg={project.mainImg}
           projectName={project.projectName}
           aboutProject={project.aboutProject}
+          aboutFullInfo={project.aboutFullInfo}
           technologiesUsed={project.technologiesUsed}
           key={project.id}
           art={project.art}

@@ -47,7 +47,9 @@ const myProjectsInfos = [
     photo3: BillingPhoto3,
     projectName: "LM Inventory Control",
     aboutProject:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem possimus minus sunt quae ipsum voluptas porro a id animi. Est eveniet repellendus, tempora numquam quae exercitationem ratione autem dignissimos eaque aliquam reprehenderit iure sed veniam alias officia. Aspernatur officia labore ipsa nobis maxime ex deleniti sunt praesentium, beatae quo nisi!",
+      "Projeto criado para LM Cosmetics, empresa do grupo GL Industry, do ramo dos cosméticos. Consiste em um crontrolador de estoque, suas funcionalidades são relacionadas a gestão de produtos (inserção, edição e exclusão) e gestão de Fluxo do Estoque (criação de entradas e sáidas do estoque).",
+    aboutFullInfo:
+      "Por questões de privacidade, não é possivel acessar as funcionalidades da aplicação. Mas é possível simular a aplicação com o código disponibilizado em meu github. O projeto contém um front-end em React, Api-Rest em express e prisma, e banco de dados em postgres. Contém segurança com sitema de login e criptografia. Já está em fase de Produção.",
     technologiesUsed: [
       jsImg,
       reactImg,
@@ -71,7 +73,9 @@ const myProjectsInfos = [
     photo3: BillingPhoto3,
     projectName: "Billing Management",
     aboutProject:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem possimus minus sunt quae ipsum voluptas porro a id animi. Est eveniet repellendus, tempora numquam quae exercitationem ratione autem dignissimos eaque aliquam reprehenderit iure sed veniam alias officia. Aspernatur officia labore ipsa nobis maxime ex deleniti sunt praesentium, beatae quo nisi!",
+      "Aplicação desenvolvida durante meu curso de Desenvolvimento Web Full-Stack. Consiste em um gerenciador de pagamentos de clientes, contém funções para cadastro e edição de clientes e cobranças, Ferramentas de busca de clientes e cobraças, segurança e criptografia com sitema de login. ",
+    aboutFullInfo:
+      "O projeto foi desenvolvido em uma equipe de 5 pessoas sob minha liderança, durante 5 sprints e com utilização de metodologias ágeis.",
     technologiesUsed: [
       jsImg,
       reactImg,

@@ -10,6 +10,7 @@ export function GeneralContextProvider({ children }) {
     photo2: false,
     projectName: "",
     aboutProject: "",
+    aboutFullInfo: "",
     technologiesUsed: [],
   });
   return (
