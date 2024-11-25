@@ -1,5 +1,6 @@
 import "./Contact.css";
 import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
+import WhatsAppImg from "../../assets/whatsapp.png";
 
 export default function Contact() {
   return (
@@ -16,7 +17,15 @@ export default function Contact() {
         </p>
       </article>
       <article>
-        <h3>Contato</h3>
+        <h3>Contato via WhatsApp</h3>
+        <div>
+          <a href="https://wa.me/5511944698742" target="_blank">
+            <img src={WhatsAppImg} alt="" />
+          </a>
+        </div>
+      </article>
+      <article>
+        <h3>Contato via Email</h3>
         <form
           action="https://formsubmit.co/indalecioolivo@gmail.com"
           method="POST"

@@ -33,6 +33,26 @@
 
   line-height: var(--textLine);
 }
+
+.contact-container article div {
+  /* border: 1px solid black; */
+  width: 34.7rem;
+  display: flex;
+  align-items: center;
+}
+
+.contact-container article div img {
+  width: 4rem;
+  height: 4rem;
+  /* border: 1px solid black; */
+}
+
+.contact-container article div img:hover {
+  background-color: #ebebec;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 .contact-container article form {
   width: 34.7rem;
   height: 26.6rem;
