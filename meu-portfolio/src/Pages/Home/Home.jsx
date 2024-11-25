@@ -26,17 +26,24 @@ export default function Home() {
         <div className="about-me">
           <h2>Sobre Mim</h2>
           <p>
-            Sou um desenvolvedor front-end júnior procurando por uma
-            oportunidade. Eu foco em escrever HTML acessível, usando práticas
-            modernas de CSS e escrevendo um JavaScript limpo. Quando estou
-            escrevendo código JavaScript, na maioria das vezes estou usando
-            React, mas posso me adapta para qualquer ferramenta se necessário.
-            Moro em Londres, UK, mas também seria feliz trabalhando remotamente
-            e tenho experiência em times remotos. Quando não estou codando,
-            poderá me achar fora de casa. Eu adoro estar próximo a natureza seja
-            para uma caminhada, corrida ou ciclismo. Eu amaria se você desse uma
-            olhada no meu trabalho.
+            Sou um <strong>Desenvolvedor Web Full-Stack</strong> em transição de
+            carreira desde janeiro de 2023, resido na baixada Santista e sou
+            natural de Minas Gerais.
+            <br />
+            Em minha jornada até o atual momento, após investir em um{" "}
+            <strong>curso intensivo</strong> com duração de 12 meses, com aulas
+            e testes realizados todos os dias das 14h as 21h,{" "}
+            <strong>
+              aprendi ferramentas e metodologias utilizadas diariamente no
+              mercado de trabalho.{" "}
+            </strong>
+            <br />
+            Tive a oportunidade de participar de projetos em equipe, como líder
+            e também liderado, simulados com duração de 1 mês, onde aprendi e
+            pratiquei sobre metodologias ágeis, e também pratiquei minhas
+            habilidades através da produção de aplicações full-stack.
           </p>
+
           <a href="/portfolio" className="for-button">
             <PrimaryButton styleBtn="btn-gray" textBtn="IR PARA PORTFÓLIO" />
           </a>

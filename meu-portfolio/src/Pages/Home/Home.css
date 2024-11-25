@@ -82,7 +82,7 @@
 }
 
 .home-container article {
-  height: 37.5rem;
+  min-height: 37.5rem;
 
   display: flex;
 }
@@ -116,4 +116,5 @@
 .home-container article .about-me .for-button {
   margin-top: 1rem;
   align-self: center;
+  margin-bottom: 2rem;
 }
