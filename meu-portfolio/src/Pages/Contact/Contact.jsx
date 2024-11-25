@@ -1,4 +1,6 @@
 import "./Contact.css";
+import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
+
 export default function Contact() {
   return (
     <section className="contact-container">
@@ -20,8 +22,9 @@ export default function Contact() {
           <input type="text" id="name" />
           <label htmlFor="email">E-mail</label>
           <input type="text" id="email" />
-          <label htmlFor="textcontact">Nome</label>
-          <textarea name="" id="textcontact" disabled></textarea>
+          <label htmlFor="textcontact">Mensagem</label>
+          <textarea name="" id="textcontact"></textarea>
+          <PrimaryButton styleBtn="btn-blue" textBtn="ENVIAR" />
         </form>
       </article>
     </section>
