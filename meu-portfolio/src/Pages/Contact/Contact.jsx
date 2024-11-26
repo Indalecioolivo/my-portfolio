@@ -7,7 +7,13 @@ export default function Contact() {
     <section className="contact-container">
       <article>
         <h2>Entre em Contato</h2>
-        <p></p>
+        <p>
+          Estou em busca de uma vaga de Estágio ou Junior, mas também faço
+          projetos por fora. Em um futuro próximo, desejo me mudar para a cidade
+          de Santos e melhorar minhas habilidades no inglês. Atualmente moro em
+          Peruíbe e vou à Santos todos os dias para a faculdade, mas respondo
+          rápido. Sinta-se à vontade para me chamar pelo WhatsApp.
+        </p>
       </article>
       <article>
         <h3>Contato via WhatsApp</h3>
