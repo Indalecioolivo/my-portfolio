@@ -11,7 +11,7 @@ import Project from "./Pages/Project/Project.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/my-portfolio/",
     element: <App />,
     children: [
       {
