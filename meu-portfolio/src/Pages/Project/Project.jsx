@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { GeneralContext } from "../../contexts/GeneralContext";
 export default function Project() {
   const { project, setProject } = useContext(GeneralContext);
+
   return (
     <article className="project-container">
       <img src={project.art} alt="" />
@@ -18,8 +19,33 @@ export default function Project() {
             ))}
           </div>
           <div className="for-buttons">
-            <SecondaryButton styleBtn="btn-gray" textBtn="VISITAR" />
-            <SecondaryButton styleBtn="btn-gray" textBtn="REPOSITÓRIO GIT" />
+            {!project.linkDeploy ? (
+              ""
+            ) : (
+              <a href={project.linkDeploy} target="_blank">
+                <SecondaryButton styleBtn="btn-gray" textBtn="VISITAR DEPLOY" />
+              </a>
+            )}
+            {!project.linkGitRepFront ? (
+              ""
+            ) : (
+              <a href={project.linkGitRepFront} target="_blank">
+                <SecondaryButton
+                  styleBtn="btn-gray"
+                  textBtn="VISITAR REPO FRONT"
+                />
+              </a>
+            )}
+            {!project.linkGitRepBack ? (
+              ""
+            ) : (
+              <a href={project.linkGitRepBack} target="_blank">
+                <SecondaryButton
+                  styleBtn="btn-gray"
+                  textBtn="VISITAR REPO BACK"
+                />
+              </a>
+            )}
           </div>
         </div>
         <div className="right-content">

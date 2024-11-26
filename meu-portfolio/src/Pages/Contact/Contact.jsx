@@ -7,14 +7,7 @@ export default function Contact() {
     <section className="contact-container">
       <article>
         <h2>Entre em Contato</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
-          possimus veniam quidem ipsum tempore minus ipsam animi, enim eaque
-          nostrum in temporibus explicabo dolor iusto illum, adipisci eveniet
-          expedita, est aspernatur quae. Hic tenetur delectus pariatur modi fuga
-          laboriosam commodi quasi error recusandae, asperiores dolores est
-          provident nobis temporibus nulla.
-        </p>
+        <p></p>
       </article>
       <article>
         <h3>Contato via WhatsApp</h3>

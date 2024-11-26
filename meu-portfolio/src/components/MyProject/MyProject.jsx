@@ -15,6 +15,9 @@ export default function MyProject({
   photo2,
   photo3,
   art,
+  linkDeploy,
+  linkGitRepFront,
+  linkGitRepBack,
 }) {
   const { setProject } = useContext(GeneralContext);
   function handleClick(e) {
@@ -29,6 +32,9 @@ export default function MyProject({
       photo2,
       photo3,
       art,
+      linkDeploy,
+      linkGitRepFront,
+      linkGitRepBack,
     });
   }
   return (

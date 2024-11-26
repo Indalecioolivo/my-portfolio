@@ -46,6 +46,9 @@ export default function Portfolio() {
           photo1={project.photo1}
           photo2={project.photo2}
           photo3={project.photo3}
+          linkDeploy={project.linkDeploy}
+          linkGitRepFront={project.linkGitRepFront}
+          linkGitRepBack={project.linkGitRepBack}
           id={project.id}
         />
       ))}
