@@ -11,11 +11,12 @@ import Project from "./Pages/Project/Project.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/my-portfolio/",
+    path: "/my-portfolio",
+    basename: "/myportfolio",
     element: <App />,
     children: [
       {
-        path: "/my-portfolio/",
+        path: "/my-portfolio",
         element: <Home />,
       },
       {
