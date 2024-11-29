@@ -7,5 +7,6 @@ export default defineConfig({
   base: "/my-portfolio/",
   build: {
     outDir: "dist",
+    emptyOutDir: true,
   },
 });
